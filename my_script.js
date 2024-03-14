@@ -59,7 +59,7 @@ for (var i = 1; i <= 100; i++) {
 alert("O resultado da soma dos números pares entre 1 e 100 é:" + somaPares);
 alert("O resultado da soma dos números ímpares entre 1 e 100 é:" + somaImpares)
 
-// Exercício 1/
+// Exercício 1
 function converterFahrenheit(fahrenheit) {
     var celsius = (fahrenheit - 32) * 5 / 9
     return celsius;
