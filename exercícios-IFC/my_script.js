@@ -1,3 +1,4 @@
+function botao() {
 // Exercício 2
 var quantDias = parseInt(prompt("Digite a quantidade de dias:"));
 var linksDia = 6;
@@ -83,3 +84,4 @@ var nota2 = parseFloat(prompt("Digite a segunda nota"));
 var mensagem = verificarAprovacao(nota1,nota2);
 var notaMedia = (nota1 + nota2) / 2;
 alert("A média semestral foi: " + notaMedia + "\n" + mensagem)
+}
